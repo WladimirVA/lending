@@ -330,7 +330,7 @@ p {
 }
 
 .dot_item:hover {
-    background: url("/images/dots_active.svg;");
+    background: url("/images/dots_active.svg");
 }
 
 .dot_item:last-child {
