@@ -186,6 +186,10 @@ body {
     background-color: black;
     height: 1350px;
     padding-top: 107px;
+
+    /* min-width: 1440px;
+    background-color: #131313;
+    padding: 0 134.55px 0 134.45px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -212,6 +216,35 @@ body {
     margin-left: 134px;
 }
 
+/* .projects_column1 {
+    margin-top: 69px;
+}
+
+.text_projects {
+    padding-top: 34px;
+    font-size: 14.5px;
+    line-height: 27px;
+    width: 445px;
+
+    font-family: 'Nunito Sans';
+    color: rgba(255, 255, 255, 1);
+
+} */
+/* 
+.title_projects {
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    width: 253px;
+}
+
+.wrapper {
+    padding-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 90px);
+} */
+
 .slider-descrip {
     width: 442px;
     height: 552px;
@@ -230,6 +263,7 @@ h2 {
 }
 
 p {
+    /* font-family: 'Nunito Sans'; */
     color: rgba(255, 255, 255, 1);
     font-weight: 400;
     padding: 0;
@@ -317,20 +351,20 @@ p {
 
 .dot_item {
     margin: 0 17.54px 0 0;
-    background: url("/images/dots_nonactive.svg");
+    background: url("file:///E:/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/Skillfaktory/%D0%A5%D0%BB%D0%B0%D0%BC/Slider_JS/images/svg/dots_nonactive.svg");
     width: 9.57px;
     height: 9.57px;
 }
 
 .dot__active {
-    background: url("/images/dots_active.svg");
+    background: url("file:///E:/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/Skillfaktory/%D0%A5%D0%BB%D0%B0%D0%BC/Slider_JS/images/svg/dots_active.svg");
     width: 9.57px;
     height: 9.57px;
     margin: 0 17.54px 0 0;
 }
 
 .dot_item:hover {
-    background: url("/images/dots_active.svg");
+    background: url("file:///E:/%D0%A3%D1%87%D0%B5%D0%B1%D0%B0/Skillfaktory/%D0%A5%D0%BB%D0%B0%D0%BC/Slider_JS/images/svg/dots_active.svg");
 }
 
 .dot_item:last-child {
