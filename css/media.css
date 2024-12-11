@@ -1,11 +1,11 @@
         .content {
-            max-width: 338px;
+            max-width: 375px;
             margin: auto;
             /* display: flex;
  flex-direction: column;
  align-items: center; */
         }
-        
+        /* .slider, */
         .header-nav,
         .button_header,
         .projects_column2,
