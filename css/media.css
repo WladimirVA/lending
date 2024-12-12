@@ -59,7 +59,13 @@
         
         .PROJECTS {
             padding-top: 0px;
+            margin-top: 200px;
             height: 700px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            background-color: black;
         }
         
         .section-projects {
@@ -73,7 +79,14 @@
             align-items: center;
             ;
         }
-        
+        .slider__title {
+            font-size: 14px;
+            line-height: 19.4px;
+            color: rgba(255, 255, 255, 0.3);
+            margin-right: 60.5px;
+            /* white-space: none; */
+        }
+
         .text_projects {
             padding-top: 22px;
             width: 100%;
