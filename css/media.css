@@ -59,8 +59,8 @@
         
         .PROJECTS {
             padding-top: 0px;
-            margin-top: 200px;
-            height: 700px;
+            margin-top: 0px;
+            /* height: 700px; */
             display: flex;
             flex-direction: column;
             align-content: center;
@@ -84,7 +84,18 @@
             line-height: 19.4px;
             color: rgba(255, 255, 255, 0.3);
             margin-right: 60.5px;
-            /* white-space: none; */
+            margin-top: 107px;
+            display: flex            ;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .slider-descrip {
+            width: 442px;
+            height: 552px;
+            position: relative;
+            margin-top: 0px;
+            margin-left: 10px;
         }
 
         .text_projects {
