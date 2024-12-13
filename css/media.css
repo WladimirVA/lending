@@ -1,7 +1,9 @@
         .content {
             max-width: 375px;
             margin: auto;
+            /* padding-left: 5px; */
         }
+        .slider__navig,
         .header-nav,
         .button_header,
         .projects_column2,
@@ -16,7 +18,7 @@
         .team_phohto_position,
         .contacts_button_icon,
         .CONTACTS::after,
-        footer,
+        .footer,
         .title_contacts {
             display: none;
         }
@@ -56,13 +58,19 @@
         
         .PROJECTS {
             padding-top: 0px;
-            margin-top: 0px;
-            /* height: 700px; */
+            margin-top: -330px;
             display: flex;
             flex-direction: column;
             align-content: center;
             justify-content: center;
             background-color: black;
+        }
+
+        .content_prog {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center; 
         }
         
         .section-projects {
@@ -74,25 +82,52 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            ;
         }
-        .slider__title {
+
+        .projects__info {
+            display: grid;
+            grid-template-columns: 120px 205px;
+            grid-template-rows: 73px 73px;
+            gap: 34px;
+            margin-bottom: 79.64px;
+            position: relative;
+        }
+        .slider__titles {
             font-size: 14px;
             line-height: 19.4px;
             color: rgba(255, 255, 255, 0.3);
             margin-right: 60.5px;
-            margin-top: 107px;
-            display: flex            ;
+            margin-top: 20px;
+            display: flex;
             flex-direction: column;
             align-items: center;
+            justify-content: center;
         }
 
         .slider {
             height: 44px;
+            margin: 0px;
+            width: 375px;
+        }
+
+        .slider__images {
+            width: 375px;
+        }
+
+        .slider__images .image {
+            background-size: cover;
+            background-position: center center;
+            width: 375px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            transition: opacity 800ms ease;
         }
 
         .slider-descrip {
-            width: 442px;
+            width: 365px;
             height: 552px;
             position: relative;
             margin-top: 0px;
@@ -148,7 +183,7 @@
         
         .MEASUREMENT {
             height: 800px;
-            margin-top: 200px;
+            margin-top: 113px;
             background-color: black;
             position: relative;
         }
